@@ -1,0 +1,5 @@
+print(bool,str,int)
+
+
+
+
