@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+.Header{
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.info{
+    text-align: left;
+    text-decoration: underline overline;
+}
+
+
+.shadov{
+    text-shadow: 7px 2px 20px red;
+
+}
+
+
+.Header{
+font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+}
+
+
+
+
