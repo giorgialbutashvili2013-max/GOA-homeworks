@@ -1,0 +1,48 @@
+p {
+  color: red;
+}
+
+p {
+  color: rgb(255, 0, 0);
+}
+
+p {
+  color: #ff0000;
+}
+
+p {
+  color: hsl(0, 100%, 50%);
+}
+
+
+
+
+
+    div {
+     width: 300px;
+     height: 200px;
+     background-color: blue;
+    }
+  
+
+
+
+    
+    .big {
+      width: 500px;
+      height: 200px;
+      background-color: lightgray;
+    }
+
+    .small {
+      width: 20%;
+      height: 100%;
+      background-color: blue;
+      float: left;
+    }
+  
+
+
+
+
+    

@@ -1,0 +1,75 @@
+id და class გამოიყენება HTML ელემენტების ამოსაცნობად და გასტილვისთვის
+
+
+Inline CSS
+იწერება პირდაპირ HTML ელემენტში style ატრიბუტით.
+
+Internal CSS
+იწერება style თეგში, HTML ფაილის შიგნით.
+
+External CSS
+CSS იწერება ცალკე .css ფაილში.
+HTML-ში ვაკავშირებთ <link> თეგით.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blue Text</title>
+  <style>
+    body {
+      background-color: black;
+    }
+
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <p>ეს არის ლურჯი ტექსტი შავ ფონზე</p>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class and ID Example</title>
+  <style>
+    #main-title {
+      color: red;
+      text-align: center;
+    }
+
+    .box {
+      background-color: lightgray;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .blue-text {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title"></h1>
+
+  <div class="box">
+    <p class="blue-text"></p>
+  </div>
+
+  <div class="box">
+    <p class="blue-text"></p>
+  </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,49 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left{
+    width: 45%;
+}
+
+
+.right{
+    width: 45%;
+}
+
+
+.rating{
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.card{
+    width: 30px;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+
+
+

@@ -1,0 +1,82 @@
+background-image  აყენებს სურათს ფონად
+
+background-size  აკონტროლებს სურათის ზომას (cover, contain, px )
+
+background-repeat  განსაზღვრავს გამეორდება თუ არა სურათი (no-repeat, repeat-x, repeat-y)
+
+background-position  ადგენს სად განთავსდეს სურათი (center, top, left)
+
+
+    <div class="cover-box"></div>
+    
+cover-პატარა
+contain-დიდი
+
+
+ანიმაცია ნიშნავს ელემენტის თვისებების 
+
+
+<div class="box"></div>
+
+
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/951/892/small/cute-puppy-pomeranian-mixed-breed-pekingese-dog-run-on-the-grass-with-happiness-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /*პირველი არგუმენტი არის x ღერძზე მოძრაობა, მეორე არგუმენტი კი yზე*/
+    height: 100vh;
+    background-color: black;
+    /* background-size: cover;  -- ვიყენებთ, როდესაც background ფოტო არის ეკრანზე პატარა*/ 
+    /* background-size: contain; -- ვიყენებთ, როდესაც background ფოტო არის ეკრანზე დიდი*/
+}
+
+.Background{
+    background-color: aliceblue;
+}
+
+
+
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition: transform 15s ease-in, background-color 2s;
+}
+
+.Box:hover{
+    background-color: blue;
+    transform: scale(4);
+}
+
+/*Transforms
+
+Translate(TranslateX) - ამოძრავებს ელემენტს x ღერძზე და y ღერძზე
+TranslateX - ამოძრავებს ელემენტს x ღერძზე
+TranslateY - ამოძრავებს ელემენტს y ღერძზე
+scale - ამცირებს ან ზრდის ელემენტს
+rotate - აბრუნებს ელემენტს
+*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="Box"></p>
+</body>
+</html>
+

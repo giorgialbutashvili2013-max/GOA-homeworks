@@ -1,0 +1,16 @@
+.link:hover{
+    color: red;
+}
+
+
+tr , td ,table{
+    border: 1px solid yellow
+
+}
+
+
+  
+table{
+    border-collapse: collapse;
+}
+

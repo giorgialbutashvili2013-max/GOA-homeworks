@@ -1,0 +1,24 @@
+.cover-box{
+    background-image: url();
+    background-size: cover; 
+}
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: 10s, 5s;
+}
+
+.box:hover{
+    transform: scale(2);        
+    background-color: red;      
+}
+
+
+
+
+
+
