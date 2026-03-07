@@ -1,0 +1,137 @@
+
+
+.box{
+    width: 400px;
+    height: 200px;
+    background: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    animation: move 1.5s infinite alternate;
+}
+
+
+.dot2{
+    animation-delay: o.75s;
+}
+
+
+@keyframes move{
+    0%{
+        transform: translatey(-30px);
+    }
+    100%{
+        transform: translatey(30px);
+    }
+}
+
+
+
+
+
+
+.box{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    width: 120px;
+    border-radius: 50%;
+    animation: rotatelogo 3s linear infinite;
+}
+
+
+@keyframes rotatelogo{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+.loader{
+    width: 80px;
+    height: 80px;
+    border: 10px solid white;
+    border-top: 10px solid gray;
+    border-radius: 50%;
+    animation: spin 1s liner infinite;
+}
+
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.circle{
+    width:120px;
+    height:120px;
+    border:12px solid orange;
+    border-top:12px solid transparent;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
+
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+ TRANSITION
+ გამოიყენება მაშინ, როცა გვინდა რომ ცვლილება მოხდეს
+  ერთი მდგომარეობიდან მეორეზე 
+
+ ANIMATION
+ შეუძლია თავისით დაიწყოს 
+ ვიყენებთ @keyframes-ს.
+
+
+
+<div class="box"></div>
+
+
+
+
+loading . . .
+
+<div class="loader">
+    <div class="progress"></div>
+</div>
+
+
+
+<div class="ball"></div>
+
+
+
+
+
+
+body{
+    background-color: black;
+    display: flex;
+}
+
+.cube{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: aroundTheWorld 5s infinite;
+    
+}
+
+@keyframes aroundTheWorld {
+    25%{
+        transform: translate(700px, 0px);
+    }
+    50%{
+        transform: translate(700px, 350px);
+    }
+    75%{
+        transform: translate(0px, 350px);
+    }
+
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+
+
+
+
+/* @keyframes colorScale {
+    25%{
+        background-color: green;
+        transform: scale(2);
+    }
+
+    50%{
+        background-color: yellow;
+        transform: scale(4);
+    }
+
+    75%{
+        background-color: cyan;
+        transform: scale(2);
+    }
+
+    100%{
+        background-color: blue;
+        transform: scale(1);
+    }
+} */
+
+
+
+/*@keyframes colorScale {
+    0% from{
+        background-color: red;
+    }
+
+    100% to{
+        background-color: blue;
+    }
+} */

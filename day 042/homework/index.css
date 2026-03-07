@@ -1,0 +1,89 @@
+body{
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.main{
+
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+
+}
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.loading{
+
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    transform: translatey(250px) translate(-140px);
+    border-right: dotted white 3px;
+    animation:float 3s ease-in-out infinite;
+}
+
+
+
+@keyframes float{
+    25%{
+        border-bottom: solid white 3px;
+        border-right: solid 0px;
+    }
+    50%{
+        border-left: solid white 3px;
+        border-bottom: solid 0px;
+    }
+    75%{
+        border-top: solid white 3px;
+        border-left: solid  0px;
+    }
+    100%{
+        border-right: solid white 3px;
+        border-top: solid 0px;
+    }
+
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
