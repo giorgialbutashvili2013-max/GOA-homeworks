@@ -2,25 +2,33 @@
 #interation:გამეორება/ციკლი
 #selection:არჩევნის გაკეთება,რაღაც პირობის მიხედვით
 
-#for ციკლი მუშაობს რომ რაიმე სახელი გავამეოროთ რამდენჯერაც გვინდა
+# For ციკლი გამოიყენება მაშინ, როდესაც გვინდა კოდი რამდენჯერმე შესრულდეს.
 
-for i in range(1000):
+# მაგალითად range() ფუნქცია ქმნის რიცხვების დიაპაზონს.
+# For ციკლი თითოეულ რიცხვს რიგრიგობით იღებს და ასრულებს კოდს.
+
+# მაგალითად:
+# for i in range(5):
+#     print(i)
+
+# აქ ციკლი 5ჯერ შესრულდება და გამოიტანს 0,1,2,3,4
+
+
+for i in range(1, 1001):
     print(i)
 
 
+
+
 for i in range(15):
-    print("meat")
+    print("ხაჭაპური")
 
 
-for i in range(5):
-    print("beso")
 
 
-for i in range(5):
-    print("manana")
+family = ["დედა", "მამა", "და", "ძმა"]
 
-
-for i in range(5):
-    print("eto")
-
+for name in family:
+    for i in range(5):
+        print(name)
 
